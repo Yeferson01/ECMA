@@ -12,5 +12,5 @@ const example = () => {
 example().then(response => console.log(response))
          .then(response => console.log('GoodBye lucky'))
          .catch(response => console.log(response))
-         
+         .finally(() => console.log('The end')); //Se agrega la opcion de ejecutar algo al final de una promesa
 
